@@ -241,7 +241,7 @@ export default function Sidebar() {
           </Link>
         )}
         <button
-          onClick={() => setCollapsed((c: boolean) => !c)}
+          onClick={() => setCollapsed(!collapsed)}
           className={cn(
             "hidden lg:flex p-1.5 rounded-lg hover:bg-gray-100 text-gray-400 transition-colors flex-shrink-0",
             collapsed && "mt-0"
