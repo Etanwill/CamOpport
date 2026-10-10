@@ -6,7 +6,7 @@ import {
   getMockInterview, getInterviewMessages,
   addInterviewMessage, updateInterviewProgress, completeInterview,
 } from "@/lib/db/queries";
-import { SYSTEM_PROMPT } from "../route";
+import { SYSTEM_PROMPT } from "@/lib/interview-prompt";
 
 export const dynamic = "force-dynamic";
 
